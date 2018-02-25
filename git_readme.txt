@@ -77,6 +77,51 @@ Git 鼓励大量使用分支：
 合并某分支到当前分支： git merge <name>
 删除分支：git branch -d <name>
 
+小结十一：
+修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除；
+当手头工作没有完成时，先把工作现场git stash 一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
+
+小结十二：
+开发一个新的feature， 最好新建一个分支；
+如果要丢弃一个没有被合并的分支，可以通过git branch -D <name> 强行删除。
+
+
+多人协助的工作模式通常是这样：
+1.首先，可以试图用 git push origin branch-name 推动自己的推送。
+2.如果推送失败，则因为远程分支比本地更加新，需要先git pull 试图合并；
+3. 如果合并有冲突，则解决冲突，并在本地提交。
+4. 没有冲突或者解决掉冲突后，再用git push origin branch-name 推送就能成功！。
+如果 git pull 提示“no tracking information”， 则说明本地分支和远程分支的链接关系没有创建，
+用命令git branch --set-upstream branch-name /origin/branch-name。
+
+
+小结十二：
+查看远程库信息，使用git remote -version
+本地新建的分支如果不推送到远程，对其他人就是不可见的。
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull 抓取远程的新提交。
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致。
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
