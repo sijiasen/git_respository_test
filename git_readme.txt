@@ -68,3 +68,21 @@ git checkout ÆäÊµ¾ÍÊÇÓÃ°æ±¾¿âÀïµÄ°æ±¾Ìæ»»¹¤×÷ÇøµÄ°æ±¾£¬ÎÞÂÛ¹¤×÷ÇøÊÇÐÞ¸Ä»¹ÊÇÉ¾³ý£
 Òª¿ËÂ¡Ò»¸ö²Ö¿â£¬Ê×ÏÈ±ØÐëÖªµÀ²Ö¿âµÄµØÖ·£¬È»ºóÊ¹ÓÃgit clone ÃüÁî¿ËÂ¡¡£
 Git Ö§³Ö¶àÖÖÐ­Òé£¬°üÀ¨https£¬µ«Í¨¹ýssh Ö§³ÖµÄÔ­ÉúgitÐ­ÒéËÙ¶È×î¿ì¡£
 
+Ð¡½áÊ®£º
+Git ¹ÄÀø´óÁ¿Ê¹ÓÃ·ÖÖ§£º
+²é¿´·ÖÖ§£ºgit branch
+´´½¨·ÖÖ§£ºgit branch <name>
+ÇÐ»»·ÖÖ§£ºgit checkout <name>
+´´½¨+ÇÐ»»£ºgit checkout -b <name>
+ºÏ²¢Ä³·ÖÖ§µ½µ±Ç°·ÖÖ§£º git merge <name>
+É¾³ý·ÖÖ§£ºgit branch -d <name>
+
+
+
+
+
+
+
+
+
+
