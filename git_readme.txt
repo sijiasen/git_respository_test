@@ -77,7 +77,9 @@ Git 鼓励大量使用分支：
 合并某分支到当前分支： git merge <name>
 删除分支：git branch -d <name>
 
-
+小结十一：
+修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除；
+当手头工作没有完成时，先把工作现场git stash 一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
 
 
 
