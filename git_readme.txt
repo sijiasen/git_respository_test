@@ -56,13 +56,15 @@ git checkout ÆäÊµ¾ÍÊÇÓÃ°æ±¾¿âÀïµÄ°æ±¾Ìæ»»¹¤×÷ÇøµÄ°æ±¾£¬ÎÞÂÛ¹¤×÷ÇøÊÇÐÞ¸Ä»¹ÊÇÉ¾³ý£
 ÃüÁî git rm ÓÃÓÚÉ¾³ýÒ»¸öÎÄ¼þ£¬Èç¹ûÒ»¸öÎÄ¼þÒÑ¾­±»Ìá½»µ½°æ±¾¿â£¬ÄÇÃ´ÓÀÔ¶²»ÓÃµ£ÐÄÎóÉ¾£¬µ«ÊÇÒªÐ¡ÐÄ£¬
 Ö»ÄÜ»Ö¸´ÎÄ¼þµ½×îÐÂ°æ±¾£¬»á¶ªÊ§×î½üÒ»´ÎÌá½»ºóËùÐÞ¸ÄµÄÄÚÈÝ¡£
 
-
 Ð¡½á°Ë£º
 Òª¹ØÁªÒ»¸öÔ¶³Ì¿â£¬Ê¹ÓÃÃüÁîgit remote add origin git@github.com:sijiasen/git_respository_test.git
 ¹ØÁªºó£¬Ê¹ÓÃÃüÁîgit push -u origin master µÚÒ»´ÎÍÆËÍmaster ·ÖÖ§ËùÓÐÄÚÈÝ£»
 ´Ëºó£¬Ã¿´Î±¾µØÌá½»ºó£¬Ö»ÒªÓÐ±ØÒª£¬¾Í¿ÉÒÔÊ¹ÓÃÃüÁîgit push origin master ÍÆËÍ×îÐÂÐÞ¸Ä£»
 
+·Ö²¼Ê½°æ±¾ÏµÍ³µÄ×î´óºÃ´¦Ö®Ò»ÊÇÔÚ±¾µØÍêÈ«²»ÐèÒª¿¼ÂÇÔ¶³Ì¿âµÄ´æÔÚ£¬Ò²¾ÍÊÇÓÐÃ»ÓÐÁªÍø¶¼¿ÉÒÔ
+Õý³£¹¤×÷£¬¶øSVNÔÚÃ»ÓÐÁªÍøµÄÊ±ºòÊÇ¾Ü¾ø¸É»îµÄ£¡µ±ÓÐÍøÂçµÄÊ±ºò£¬ÔÙ°Ñ±¾µØÌá½»ÍÆËÍÒ»ÏÂ¾ÍÍê³ÉÍ¬²½ÁË£¬·½±ã¡££¡
 
-
-
+Ð¡½á¾Å£º
+Òª¿ËÂ¡Ò»¸ö²Ö¿â£¬Ê×ÏÈ±ØÐëÖªµÀ²Ö¿âµÄµØÖ·£¬È»ºóÊ¹ÓÃgit clone ÃüÁî¿ËÂ¡¡£
+Git Ö§³Ö¶àÖÖÐ­Òé£¬°üÀ¨https£¬µ«Í¨¹ýssh Ö§³ÖµÄÔ­ÉúgitÐ­ÒéËÙ¶È×î¿ì¡£
 
